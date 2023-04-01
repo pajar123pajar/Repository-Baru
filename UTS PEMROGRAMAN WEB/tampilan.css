@@ -1,0 +1,131 @@
+/*!<!--Muhammad Pajar_932020043_2TE2-->*/
+body{
+	background: url(image/01.png) no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+}
+
+.row444 {
+    color: #C1C2C4;
+    background-color: #323639;
+}
+.overlayyy {
+    color: #FFFFFF;
+    background-color: inherit;
+}
+.bgdeddd {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlayyy {
+    position: relative;
+    z-index: 1;
+}
+.overlayyy::after {
+    color: inherit;
+    background-color: rgba(0,0,0,.55);
+}
+.overlayyy::after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+}
+*, *::before, *::after {
+    transition: all .3s ease-in-out;
+}
+
+	#topnavnavnav    {
+    padding: 150px 0 30px;
+    line-height: normal;
+    }
+    
+    .hocnavnavnav {
+        display: block;
+        margin: 0 auto;
+        line-height: normal;
+    }
+    
+    .clear, .clear::after {
+        clear: both;
+    }
+    .clear {
+        display: block;
+    }
+    .clear::before, .clear::after {
+        display: table;
+        content: "";
+    }
+    *, *::before, *::after {
+        transition: all .3s ease-in-out;
+    }
+    .clear::before, .clear::after {
+        display: table;
+        content: "";
+    }
+    
+    #topnavnavnav .heading45 {
+        margin-left: 35px;
+        font-size: 2rem;
+    }
+    *, *::before, *::after {
+        transition: all .3s ease-in-out;
+    }
+    
+    h7, .heading45 {
+        margin: 0 0 20px 0;
+        font-size: 22px;
+        line-height: normal;
+        font-weight: normal;
+        text-transform: capitalize;
+        font-family: Georgia, "Times New Roman", Times, serif;
+    }
+    h7 {
+        display: block;
+        font-size: 0.67em;
+        margin-block-start: 2.33em;
+        margin-block-end: 2.33em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.show-cart li {
+	display: flex;
+}
+.card {
+	margin-bottom: 20px;
+}
+.card-img-top {
+	width: 200px;
+	height: 200px;
+	align-self: center;
+}
+
+h1 {
+	text-align: center;
+	color: rgb(0, 255, 98);
+}
+
+a {
+	float: right;
+	background: rgb(255, 0, 0);
+	padding: 10px 15px;
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	margin-right: 5px;
+	border: none;
+	text-decoration: none;
+}
+a:hover{
+	opacity: .10;
+}

@@ -1,0 +1,75 @@
+/*!<!--Muhammad Pajar_932020043_2TE2-->*/
+body{
+	background: url(image/01.png) no-repeat;
+	display: flex;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	height: 97vh;
+	flex-direction: column;
+	font-family: sans-serif;
+}
+
+form {
+	width: 350px;
+	border: 2px solid rgb(0, 255, 115);
+	padding: 30px;
+	background: #203627;
+	border-radius: 15px;
+  }
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+    color: rgb(0, 255, 106);
+}
+
+input {
+	display: block;
+	border: 2px solid rgb(0, 255, 115);
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+button {
+	float: right;
+	background: rgb(0, 255, 115);
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 140px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+} 
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+a {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+	text-decoration: none;
+}
+a:hover{
+	opacity: .10;
+}
